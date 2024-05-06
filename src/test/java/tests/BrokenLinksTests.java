@@ -1,10 +1,12 @@
 package tests;
 
+
 import config.ApplicationManager;
 import org.testng.annotations.Test;
 import pages.BrokenLinksPage;
 
 public class BrokenLinksTests extends BaseTest {
+
 
     @Test
     public void brokenLinksTests() {
@@ -19,4 +21,5 @@ public class BrokenLinksTests extends BaseTest {
         driver.navigate().to("https://demoqa.com/broken");
         new BrokenLinksPage(driver).checkBrokenImages();
     }
+
 }

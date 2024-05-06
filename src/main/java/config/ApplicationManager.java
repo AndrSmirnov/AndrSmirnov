@@ -42,6 +42,7 @@ public class ApplicationManager {
             EdgeOptions edgeOptions = new EdgeOptions();
             WebDriverManager.edgedriver().setup();
             driver = new EdgeDriver(edgeOptions);
+
         } else if (browser != null && browser != "chrome"
                 && browser != "firefox" && browser != "edge") {
             throw new IllegalArgumentException("browser entered not correct");

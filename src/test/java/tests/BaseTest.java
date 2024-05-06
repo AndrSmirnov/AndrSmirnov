@@ -1,5 +1,6 @@
 package tests;
 
+
 import config.ApplicationManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.Browser;
@@ -16,7 +17,6 @@ import java.lang.reflect.Method;
 import java.util.Arrays;
 
 public class BaseTest {
-
     static WebDriver driver;
 
     static ApplicationManager app =
@@ -55,4 +55,5 @@ public class BaseTest {
         logger.info("Stop test");
         logger.info("-------------------------------------------------------");
     }
+
 }

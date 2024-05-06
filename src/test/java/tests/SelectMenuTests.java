@@ -21,7 +21,7 @@ public class SelectMenuTests extends BaseTest{
                 .fillOldStyleSelectMenu("Red")
                 .fillMultiSelect(new String[]{"Green", "Black"})
                 .fillStandartMultiSelect(new String[]{"Volvo", "Opel"});
-//
+
 //        SelectMenuPage selectMenuPage = new SelectMenuPage(driver);
 //        softAssert.assertTrue(selectMenuPage.verifySlectOne("Mr."));
 //        softAssert.assertTrue(selectMenuPage.verifyOldStyleSelectMenu("Red"));
@@ -30,4 +30,5 @@ public class SelectMenuTests extends BaseTest{
 //
 //        softAssert.assertAll();
     }
+
 }

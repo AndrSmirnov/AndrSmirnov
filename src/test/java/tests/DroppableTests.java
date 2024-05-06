@@ -1,5 +1,6 @@
 package tests;
 
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.DroppablePage;
@@ -13,8 +14,10 @@ public class DroppableTests extends BaseTest{
         new HomePage(driver).clickOnInteractions();
         new LeftSideMenu(driver).clickOnDroppable();
     }
+
     @Test
     public void dragAndDropActions() {
         new DroppablePage(driver).actionsDragMe();
     }
+
 }

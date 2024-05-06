@@ -70,7 +70,6 @@ public class AlertsPage extends BasePage {
         clickAccept(alert);
         return expectedRes.equals(actualRes);
     }
-
     public boolean verifyTextFromPromptDisplaysCorrect(String text) {
         clickWithJSScroll(btnOpenPromptAlert, 0, 500);
         waitForAlertPresent(2);

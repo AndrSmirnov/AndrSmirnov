@@ -1,4 +1,5 @@
 package tests;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -16,6 +17,7 @@ public class BrowserWindowsTests extends BaseTest{
         new HomePage(driver).clickOnAlertsFrames();
         new LeftSideMenu(driver).clickOnWindows();
     }
+
     @AfterClass
     public void classPostConditions() {
         // go to main tab and close all other tabs
@@ -36,4 +38,5 @@ public class BrowserWindowsTests extends BaseTest{
                 .switchToSamplePage(1)
                 .verifySamplePageOpen());
     }
+
 }

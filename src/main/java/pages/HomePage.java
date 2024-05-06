@@ -45,4 +45,5 @@ public class HomePage extends BasePage{
         clickWithJSScroll(btnForms, 0, 300);
         return new FormsPage(driver);
     }
+
 }

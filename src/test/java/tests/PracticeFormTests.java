@@ -1,5 +1,6 @@
 package tests;
 
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.HomePage;
@@ -13,7 +14,6 @@ public class PracticeFormTests extends BaseTest{
         new HomePage(driver).clickForms();
         new LeftSideMenu(driver).clickPracticeForm();
     }
-
     @Test
     public void practiceFormTest() {
         new PracticeFormPage(driver).hideIFrames();

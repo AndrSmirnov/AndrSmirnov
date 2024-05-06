@@ -6,4 +6,5 @@ public class InteractionPage extends BasePage{
     public InteractionPage(WebDriver driver) {
         super(driver);
     }
+
 }

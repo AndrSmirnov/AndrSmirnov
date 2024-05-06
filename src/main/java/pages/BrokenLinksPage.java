@@ -27,7 +27,6 @@ public class BrokenLinksPage extends BasePage{
         }
         return this;
     }
-
     private void verifyLinks(String link) {
         try {
             URL url = new URL(link);
@@ -45,7 +44,6 @@ public class BrokenLinksPage extends BasePage{
         }
 
     }
-
     public BrokenLinksPage checkBrokenImages() {
         for(WebElement el : allImages) {
             String image = getAttributeBase(el, "src");

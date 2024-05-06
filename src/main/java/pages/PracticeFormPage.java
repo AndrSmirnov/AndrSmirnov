@@ -1,5 +1,6 @@
 package pages;
 
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -132,4 +133,5 @@ public class PracticeFormPage extends BasePage{
         String actualRes = getTextBase(successTitleModal);
         return isStringsEqual(actualRes, str);
     }
+
 }

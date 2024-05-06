@@ -11,7 +11,9 @@ import java.security.Key;
 import java.util.List;
 
 public class SelectMenuPage extends BasePage{
+
     public SelectMenuPage(WebDriver driver) {
+
         super(driver);
     }
 

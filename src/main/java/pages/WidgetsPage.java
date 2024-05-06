@@ -6,4 +6,5 @@ public class WidgetsPage extends BasePage{
     public WidgetsPage(WebDriver driver) {
         super(driver);
     }
+
 }

@@ -16,7 +16,6 @@ public class BrowserWindowsTests extends BaseTest{
         new HomePage(driver).clickOnAlertsFrames();
         new LeftSideMenu(driver).clickOnWindows();
     }
-
     @AfterClass
     public void classPostConditions() {
         // go to main tab and close all other tabs

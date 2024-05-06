@@ -13,7 +13,6 @@ public class DroppableTests extends BaseTest{
         new HomePage(driver).clickOnInteractions();
         new LeftSideMenu(driver).clickOnDroppable();
     }
-
     @Test
     public void dragAndDropActions() {
         new DroppablePage(driver).actionsDragMe();
